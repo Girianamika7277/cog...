@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: aquamarine;
+}
+nav {
+    background-color: #333;
+    
+}
+ul {
+    list-style-type:lower-alpha;
+    margin-bottom:0;
+    padding: 19px;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p {
+    color: #666;
+    
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+form {
+    margin: 20px;
+}
+input[type="text"] {
+    padding: 10px;
+}
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

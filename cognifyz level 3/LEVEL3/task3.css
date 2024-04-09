@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+}
+
+.gallery-container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    width: 100%;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}

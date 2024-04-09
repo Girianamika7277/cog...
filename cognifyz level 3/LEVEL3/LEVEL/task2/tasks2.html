@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button Color Change</title>
+    <link rel="stylesheet" href="tasks2.css" >
+
+   
+</head>
+<body>
+    <h1> Hey, guys Click me !</h1>
+    <button id="colorButton" onclick="changeColor()">Click me to change color</button>
+</body>
+<script>
+    function changeColor() {
+        var button = document.getElementById("colorButton");
+        var colors = ["red", "blue", "green", "orange", "purple"];
+        var randomColor = colors[Math.floor(Math.random() * colors.length)];
+        button.style.backgroundColor = randomColor;
+    }
+        var currentTime = new Date();
+        var hours = currentTime.getHours();
+
+        if (hours < 12) {
+            alert("Good morning!");
+        } else if (hours < 18) {
+            alert("Good afternoon!");
+        } else {
+            alert("Good evening!");
+        }
+        
+    
+</script>
+</html>
